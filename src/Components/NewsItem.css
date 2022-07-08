@@ -1,0 +1,33 @@
+
+*{
+    margin: 2px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,0.2);
+    transition:0.3s;
+    border:1px solid black;
+    width: 30vw;
+    background-color:rgb(245, 87, 87);
+    /* display:grid;
+    grid-template-columns: repeat(3,1fr); */
+}
+.card:hover{
+    box-shadow: 0 8px 1px 0 rgba(0,0,0,0,0.2)
+}
+img{
+    width: 30vw;
+}
+.abc{
+    text-align: center;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,Helvetica,sans-serif;
+    cursor: pointer;
+    width: 20vw;
+    background-color: rgb(23, 24, 22);
+    border-radius: 2vw;
+}
+
+.abc:hover{
+    color: red;
+    background-color:rgb(24, 77, 223);
+}

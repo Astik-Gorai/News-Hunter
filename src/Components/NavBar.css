@@ -1,0 +1,23 @@
+.Nav2{
+    background-color: black;
+    color: white;
+    padding: 3vh;
+    display:grid;
+    grid-template-columns:1fr 3.5fr ;
+}
+.NavItem2{
+    display:grid;
+    grid-template-columns: repeat(7 ,1fr);
+}
+li{
+    list-style-type: none;
+    font-weight:bold;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    background-color:white;
+}

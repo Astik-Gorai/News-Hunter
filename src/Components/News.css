@@ -1,0 +1,9 @@
+.xyz{
+    display:flex;
+    flex-flow: wrap;
+    grid-template-columns: repeat(3,1fr);
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
